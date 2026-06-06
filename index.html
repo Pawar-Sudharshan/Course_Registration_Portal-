@@ -5,12 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Registration Portal</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link href="./style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
@@ -29,18 +25,13 @@
 
                 <!-- College Text -->
                 <div>
-                    <h3 class="college-title mb-0">
+                    <h3 class="h5 mb-0 fw-bold text-uppercase">
                         CVR COLLEGE OF ENGINEERING
                     </h3>
 
-                    <div class="d-flex flex-column align-items-end">
-                        <small class="college-tagline">
-                            in Pursuit of Excellence
-                        </small>
-
-                        <small class="college-subtitle">
-                            (An Autonomous Institution | NAAC 'A' Grade)
-                        </small>
+                    <div class="d-flex flex-column align-items-end text-end text-muted small">
+                        <span>in Pursuit of Excellence</span>
+                        <span>(An Autonomous Institution | NAAC 'A' Grade)</span>
                     </div>
                 </div>
 
@@ -67,7 +58,34 @@
 
     </nav>
 
+    <!-- Hero Section -->
+    <section class="position-relative overflow-hidden" style="min-height: 100vh;">
+        <div class="position-absolute top-50 start-50" style="width:180vh; height:120vh; transform:translate(-50%, -50%);">
+            <iframe class="w-100 h-100" style="position:absolute; top:0; left:0; pointer-events:none; filter:brightness(0.55);"
+                src="https://www.youtube.com/embed/iG5MmgcjORs?controls=0&mute=1&autoplay=1&loop=1&playlist=iG5MmgcjORs&modestbranding=1&rel=0&showinfo=0"
+                title="Exploring Innovation: A Tour of CVR College of Engineering , Vastu Nagar Hyderabad Telangana"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+        <div class="container position-relative text-white py-5 h-100">
+            <div class="row align-items-center h-100">
+                <div class="col-lg-6 col-12">
+                    <h1 class="display-4 fw-bold text-white">CVR College of Engineering</h1>
+                    <p class="lead text-white-75 my-4">
+                        Established in 1998, CVR College of Engineering is a premier institution dedicated to providing quality education in engineering and technology. With state-of-the-art facilities, experienced faculty, and strong industry collaborations, we empower students to innovate, lead, and build successful careers.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary btn-lg">Explore Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <br><br><br>
+
     
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
