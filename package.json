@@ -1,0 +1,22 @@
+{
+  "name": "course_registration_portal",
+  "version": "1.0.0",
+  "description": "This repository contains a simple static website for the CVR College Course Registration Portal.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pawar-Sudharshan/Course_Registration_Portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pawar-Sudharshan/Course_Registration_Portal/issues"
+  },
+  "homepage": "https://github.com/Pawar-Sudharshan/Course_Registration_Portal#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

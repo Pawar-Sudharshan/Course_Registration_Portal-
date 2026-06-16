@@ -1,0 +1,29 @@
+[
+    {
+        "courseId": 1,
+        "courseName": "Data Structures and Algorithms",
+        "courseDescription": "This course covers fundamental data structures and algorithms, including arrays, linked lists, stacks, queues, trees, graphs, sorting and searching algorithms.",
+        "courseCredits": 4
+    }
+    ,
+    {
+        "courseId": 2,
+        "courseName": "Database Management Systems",
+        "courseDescription": "This course introduces the concepts of database management systems, including relational databases, SQL, normalization, and database design.",
+        "courseCredits": 3
+    }
+    ,
+    {
+        "courseId": 3,
+        "courseName": "Operating Systems",
+        "courseDescription": "This course covers the principles of operating systems, including process management, memory management, file systems, and concurrency.",
+        "courseCredits": 4
+    }
+    ,
+    {
+        "courseId": 4,
+        "courseName": "Computer Networks",
+        "courseDescription": "This course introduces the fundamentals of computer networks, including network protocols, TCP/IP, routing, and network security.",
+        "courseCredits": 3
+    }
+]
